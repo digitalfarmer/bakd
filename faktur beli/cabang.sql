@@ -1,0 +1,1 @@
+CALL usp_del_faktur_beli('FAKTUR','32033390','ALL'); 

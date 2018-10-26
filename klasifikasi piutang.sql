@@ -1,0 +1,8 @@
+SELECT* FROM ar_klasifikasi_piutang _detail WHERE `no_mutasi`='KFCRB/201608/00588';
+SELECT*FROM sl_faktur _kategori WHERE no_faktur IN(
+'FKCRB/201606/06489',
+'FKCRB/201606/06490',
+'FKCRB/201606/08988',
+'FKCRB/201606/09195',
+'FKCRB/201606/10717'
+) ;

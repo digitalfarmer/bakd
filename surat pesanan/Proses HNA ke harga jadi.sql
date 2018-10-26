@@ -1,0 +1,3 @@
+SELECT*FROM sl_surat_pesanan_misc  WHERE no_sp IN(
+'SPDPS/201606/10665','SPDPS/201606/10668'
+);

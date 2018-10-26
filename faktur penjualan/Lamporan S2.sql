@@ -1,0 +1,1 @@
+SELECT*FROM `sr_penjualan` WHERE `No_Penjualan`="JSKDR/201612/00095";

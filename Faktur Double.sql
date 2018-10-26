@@ -1,0 +1,3 @@
+SELECT * FROM ac_etax_keluar WHERE NoFaktur IN(
+'FKSB2/201608/05964','FKSB2/201608/05635'
+);

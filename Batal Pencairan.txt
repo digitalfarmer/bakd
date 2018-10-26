@@ -1,0 +1,5 @@
+update fi_bank_cair bc set bc.status="B" where bc.no_cair ="BM/SB2/BCA24/02/2016/05/2357";
+update fi_bank_masuk bm set bm.tgl_rekening_koran="0000-00-00", bm.status_cair_warkat="N"  where bm.no_bbm =(select bc.no_bbm from fi_bank_cair bc where bc.no_cair="BM/SB2/BCA24/02/2016/05/2357" limit 1);
+delete from fi_kas_bank_print where no_referensi=(select bc.no_bbm from fi_bank_cair bc where bc.no_cair="BM/SB2/BCA24/02/2016/05/2357" limit 1);
+
+insert into sy_track (User_ID, IP_Address, pc_name, timestamp, activity, header_reference, detail_reference) values ("ade", "192.168.21.173", "aji@AJI-PC", now(), "BAKD: Batal Cair", "BM/SB2/BCA24/02/2016/05/2357", "No BAKD: ");

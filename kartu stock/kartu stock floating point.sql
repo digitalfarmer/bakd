@@ -1,0 +1,1 @@
+SELECT*FROM `sl_surat_pesanan_detail` WHERE no_sp LIKE '%SPMKS/201609%' AND kode_barang='';

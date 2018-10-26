@@ -1,0 +1,1 @@
+SELECT*FROM ms_cabang WHERE kode_cabang="PTK";
