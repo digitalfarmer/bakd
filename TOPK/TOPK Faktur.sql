@@ -16,8 +16,8 @@ topk INT
 
 INSERT INTO t_top_faktur VALUES 
 
-("FKPTK/201607/01083",30,67),
-("FKPTK/201607/01037",30,67);
+("FKBEK/202107/00542",60,75),
+("FKBEK/202107/00546",60,75);
 
 SELECT * FROM t_top_faktur t, sl_faktur_top ft
 

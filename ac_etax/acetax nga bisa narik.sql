@@ -1,6 +1,6 @@
 SELECT `NoFaktur`, COUNT(*) AS Jml
 FROM `ac_etax_keluar` 
-WHERE `tglpajak`="2017-01-30"
+WHERE `tglpajak`="2019-10-25"
 GROUP BY NoFaktur
 HAVING jml>1;
 
